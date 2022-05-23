@@ -1,0 +1,53 @@
+/* Universal Selector*/
+* {
+margin: 0;
+padding: 0
+
+}
+
+/* Elmenet Selectors */
+body {
+position: relative;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+background-color: #9e7b9b;
+color: #374a67;
+}
+
+h1,
+h2{
+    margin: 20px;
+}
+
+main{
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: double;
+}
+
+a {
+    text-decoration: none;
+    color: #0e1116;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #cb9cf2
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid #374a67;
+}
+
+footer{
+    position: absolute;
+    margin-top: 0;
+}
